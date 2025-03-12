@@ -39,8 +39,6 @@ class Vessel:
         else:
             print(f"\nNot enough soul to heal!")
             return self.soul, self.health, True
-
-
         
     def cast_spell(self, spell):
         spells = {
