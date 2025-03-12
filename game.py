@@ -49,7 +49,7 @@ class Vessel:
         if spell in spells:
             if self.soul >= spells[spell]["cost"]:
                 self.soul -= spells[spell]["cost"]
-                print(f"- Vessel casts {spell.title()}, dealing {spells[spell]["damage"]} damage!")
+                print(f"- Vessel casts {spell.title()}, dealing {spells[spell]['damage']} damage!")
                 return spells[spell]["damage"]
             else:
                 print("Not enough soul!")
